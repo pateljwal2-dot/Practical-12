@@ -1,0 +1,94 @@
+
+/* General Styling */
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Dashboard Cards */
+
+.stat-card {
+    border: none;
+    border-radius: 10px;
+    min-height: 120px;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Main Cards */
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+/* Form Styling */
+
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 4px rgba(13, 110, 253, 0.3);
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 6px;
+}
+
+/* Table Styling */
+
+.table {
+    vertical-align: middle;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .stat-card {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
